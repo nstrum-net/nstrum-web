@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://nstrum.net/'
+languageCode = 'ja-jp'
 title = 'My New Hugo Site'
+theme = "blowfish"
