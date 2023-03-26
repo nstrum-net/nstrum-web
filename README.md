@@ -16,6 +16,11 @@ Linux/macOS(Windowsはわかりません):
 	cd nstrum-web
 	```
 
+## 動作確認するとき
+```
+hugo server
+```
+
 ## 新ページを作る方法
 
 固定ページ
