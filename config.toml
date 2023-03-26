@@ -1,4 +1,0 @@
-baseURL = 'https://nstrum.net/'
-languageCode = 'ja-jp'
-title = 'My New Hugo Site'
-theme = "blowfish"
