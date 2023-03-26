@@ -4,5 +4,5 @@ description: ""
 ---
 
 {{< button href="#button" target="_self" >}}
-サーバに参加する
+参加方法はこちら
 {{< /button >}}
