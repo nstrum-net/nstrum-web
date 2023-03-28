@@ -20,6 +20,18 @@
   weight = 2
 
 [[main]]
+  name = "Discordルール"
+  parent = "ルール"
+  pageRef = "rules"
+  weight = 31
+
+[[main]]
+  name = "Minecraftルール"
+  parent = "ルール"
+  pageRef = "rules"
+  weight = 32
+
+[[main]]
   name = "プラグイン"
   weight = 3
 
