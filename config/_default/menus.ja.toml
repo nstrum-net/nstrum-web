@@ -22,14 +22,14 @@
 [[main]]
   name = "Discordルール"
   parent = "ルール"
-  pageRef = "rules"
-  weight = 31
+  pageRef = "rules/discord"
+  weight = 21
 
 [[main]]
   name = "Minecraftルール"
   parent = "ルール"
-  pageRef = "rules"
-  weight = 32
+  pageRef = "rules/minecraft"
+  weight = 22
 
 [[main]]
   name = "プラグイン"
@@ -50,13 +50,13 @@
 [[main]]
   identifier = "discord"
   pre = "discord"
-  url = "https://discord.gg/invitecode"
+  url = "https://discord.gg/pACwJKxhtM"
   weight = 5
 
 [[main]]
   identifier = "twitch"
   pre = "twitch"
-  url = "https://twitch.tv/"
+  url = "https://twitch.tv/meao0525"
   weight = 6
 
 # [[main]]
