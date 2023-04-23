@@ -26,6 +26,7 @@ buildFuture = false
   author = "authors"
   series = "series"
   rules = "rules"
+  plugins = "plugins"
 
 [sitemap]
   changefreq = 'daily'
