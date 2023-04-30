@@ -12,7 +12,7 @@
 
 [[main]]
   name = "参加する"
-  pageRef = "posts"
+  pageRef = "join"
   weight = 1
 
 [[main]]

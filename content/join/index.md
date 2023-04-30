@@ -4,7 +4,7 @@ date: 2023-04-12T22:00:00
 lastmod: 2023-04-12T22:00:00
 draft: false
 description: ""
-tags: ["rules"]
+tags: [""]
 showDate: true
 showReadingTime: false
 showBreadcrumbs: true
