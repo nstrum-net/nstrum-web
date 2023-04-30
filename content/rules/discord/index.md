@@ -7,7 +7,6 @@ description: ""
 tags: ["rules"]
 showDate: true
 showReadingTime: false
-showBreadcrumbs: true
 showDateUpdated: true
 showWordCount: false
 ---

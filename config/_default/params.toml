@@ -7,7 +7,7 @@
 
 colorScheme = "blowfish"
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
@@ -17,10 +17,10 @@ enableCodeCopy = true
 
 disableImageOptimization = false
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
+defaultBackgroundImage = "img/background-main.jpg" # used as default for background images 
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
+highlightCurrentMenuArea = false
+smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 [header]
@@ -50,8 +50,8 @@ disableImageOptimization = false
   showLikes = false
   showDateUpdated = true
   showAuthor = false
-  showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
@@ -61,48 +61,48 @@ disableImageOptimization = false
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
-  showPagination = true
+  showPagination = false
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
-  showTaxonomies = false
+  showTableOfContents = true
+  showTaxonomies = true
   showAuthorsBadges = false
-  showWordCount = true
-  showSummary = true
-  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
+  showWordCount = false
+  showSummary = false
+  # sharingLinks = [ "discord", "twitch"]
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = false
-  groupByYear = true
-  cardView = false
+  showCards = true
+  groupByYear = false
+  cardView = true
   cardViewScreenWidth = false
-  constrainItemsWidth = false
+  constrainItemsWidth = true
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
-  showTableOfContents = false
-  cardView = false
+  showTableOfContents = true
+  cardView = true
 
 [term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
