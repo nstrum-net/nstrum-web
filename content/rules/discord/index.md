@@ -1,7 +1,7 @@
 ---
 title: "Discordルール"
 date: 2023-04-12T22:00:00
-lastmod: 2023-04-12T22:00:00
+lastmod: 2023-05-07T22:30:00
 draft: false
 description: ""
 tags: ["rules"]
