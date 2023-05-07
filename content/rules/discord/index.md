@@ -31,7 +31,7 @@ showWordCount: false
 - その他不適切なコンテンツの投稿はしないようお願いいたします。
 
   
-<font size="6px" color="red">上記に違反した場合、  
+<font size="6px" color="#faa14d">上記に違反した場合、  
 警告やBAN処分を  
 受けることがあります。</font>  
 サーバ内で迷惑行為や不適切な行為に遭遇した場合には、  
