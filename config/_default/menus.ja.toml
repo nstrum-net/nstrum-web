@@ -38,13 +38,13 @@
 [[main]]
   name = "マイクラモンスターズ"
   parent = "プラグイン"
-  pageRef = "posts"
+  pageRef = "plugins/monsters"
   weight = 31
 
 [[main]]
   name = "その他"
   parent = "プラグイン"
-  pageRef = "posts"
+  pageRef = "plugins"
   weight = 32
 
 [[main]]
