@@ -18,6 +18,7 @@ enableCodeCopy = true
 disableImageOptimization = false
 
 defaultBackgroundImage = "img/background-main.jpg" # used as default for background images 
+defaultFeaturedImage = "img/default-feature.jpg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = false
 smartTOC = true

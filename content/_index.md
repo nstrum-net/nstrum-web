@@ -3,6 +3,6 @@ title: ""
 description: ""
 ---
 
-{{< button href="#button" target="_self" >}}
+{{< button href="./join" target="_self" >}}
 参加方法はこちら
 {{< /button >}}
