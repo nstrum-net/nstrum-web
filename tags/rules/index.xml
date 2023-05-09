@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rules on NsTrum</title><link>https://nstrum.net/tags/rules/</link><description>Recent content in rules on NsTrum</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>©2023 NsTrum.net</copyright><lastBuildDate>Wed, 12 Apr 2023 22:00:00 +0000</lastBuildDate><atom:link href="https://nstrum.net/tags/rules/index.xml" rel="self" type="application/rss+xml"/><item><title>Discordルール</title><link>https://nstrum.net/rules/discord/</link><pubDate>Wed, 12 Apr 2023 22:00:00 +0000</pubDate><guid>https://nstrum.net/rules/discord/</guid><description>1.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rules on NsTrum</title>
+    <link>https://nstrum.net/tags/rules/</link>
+    <description>Recent content in rules on NsTrum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>©2023 NsTrum.net</copyright>
+    <lastBuildDate>Sun, 07 May 2023 22:30:00 +0000</lastBuildDate><atom:link href="https://nstrum.net/tags/rules/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>minecraftルール</title>
+      <link>https://nstrum.net/rules/minecraft/</link>
+      <pubDate>Sun, 07 May 2023 22:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/rules/minecraft/</guid>
+      <description>1.</description>
+    </item>
+    
+    <item>
+      <title>Discordルール</title>
+      <link>https://nstrum.net/rules/discord/</link>
+      <pubDate>Wed, 12 Apr 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/rules/discord/</guid>
+      <description>1.</description>
+    </item>
+    
+  </channel>
+</rss>
