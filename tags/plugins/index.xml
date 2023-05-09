@@ -26,5 +26,14 @@
       <description>【仲間にする】 # Mobは基本的に、「倒す」か「餌をあげる」ことで仲間にすることができます。 ここでは仲間にしたMobのことを「モンスター」と呼びます。</description>
     </item>
     
+    <item>
+      <title>仲間にできるMob一覧</title>
+      <link>https://nstrum.net/plugins/monster_list/</link>
+      <pubDate>Sun, 07 May 2023 22:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/plugins/monster_list/</guid>
+      <description>【仲間にできるMob一覧】 # マイクラモンスターズの世界では、</description>
+    </item>
+    
   </channel>
 </rss>

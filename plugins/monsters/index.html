@@ -99,7 +99,7 @@
     "keywords": ["plugins"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "424"
+    "wordCount": "112"
   }]
   </script>
 
@@ -774,12 +774,7 @@
         <li><a href="#捕獲可能状態">捕獲可能状態</a></li>
       </ul>
     </li>
-    <li><a href="#仲間にできるmob一覧">【仲間にできるMob一覧】</a>
-      <ul>
-        <li><a href="#一般mob">一般Mob</a></li>
-        <li><a href="#特殊mob">特殊Mob</a></li>
-      </ul>
-    </li>
+    <li><a href="#仲間にできるmob一覧">【仲間にできるMob一覧】</a></li>
     <li><a href="#育てる">【育てる】</a>
       <ul>
         <li><a href="#ステータス">ステータス</a>
@@ -791,6 +786,7 @@
         <li><a href="#レベルを上げる">レベルを上げる</a></li>
       </ul>
     </li>
+    <li><a href="#スリープ">【スリープ】</a></li>
     <li><a href="#瀕死">【瀕死】</a></li>
     <li><a href="#逃がす">【逃がす】</a></li>
     <li><a href="#アイテム">【アイテム】</a>
@@ -798,8 +794,14 @@
         <li><a href="#げんきのいし">げんきのいし</a></li>
         <li><a href="#モンスターズスティック">モンスターズスティック</a></li>
         <li><a href="#猛特訓">猛特訓</a></li>
+        <li><a href="#特殊ネームタグ">特殊ネームタグ</a></li>
       </ul>
     </li>
+    <li><a href="#シークレットモンスター">【シークレットモンスター】</a></li>
+    <li><a href="#巨大ファントム">巨大ファントム</a></li>
+    <li><a href="#ゾンビホース">ゾンビホース</a></li>
+    <li><a href="#殺人ウサギ">殺人ウサギ</a></li>
+    <li><a href="#イリュージョナー">イリュージョナー</a></li>
   </ul>
 </nav>
   </div>
@@ -820,12 +822,7 @@
         <li><a href="#捕獲可能状態">捕獲可能状態</a></li>
       </ul>
     </li>
-    <li><a href="#仲間にできるmob一覧">【仲間にできるMob一覧】</a>
-      <ul>
-        <li><a href="#一般mob">一般Mob</a></li>
-        <li><a href="#特殊mob">特殊Mob</a></li>
-      </ul>
-    </li>
+    <li><a href="#仲間にできるmob一覧">【仲間にできるMob一覧】</a></li>
     <li><a href="#育てる">【育てる】</a>
       <ul>
         <li><a href="#ステータス">ステータス</a>
@@ -837,6 +834,7 @@
         <li><a href="#レベルを上げる">レベルを上げる</a></li>
       </ul>
     </li>
+    <li><a href="#スリープ">【スリープ】</a></li>
     <li><a href="#瀕死">【瀕死】</a></li>
     <li><a href="#逃がす">【逃がす】</a></li>
     <li><a href="#アイテム">【アイテム】</a>
@@ -844,8 +842,14 @@
         <li><a href="#げんきのいし">げんきのいし</a></li>
         <li><a href="#モンスターズスティック">モンスターズスティック</a></li>
         <li><a href="#猛特訓">猛特訓</a></li>
+        <li><a href="#特殊ネームタグ">特殊ネームタグ</a></li>
       </ul>
     </li>
+    <li><a href="#シークレットモンスター">【シークレットモンスター】</a></li>
+    <li><a href="#巨大ファントム">巨大ファントム</a></li>
+    <li><a href="#ゾンビホース">ゾンビホース</a></li>
+    <li><a href="#殺人ウサギ">殺人ウサギ</a></li>
+    <li><a href="#イリュージョナー">イリュージョナー</a></li>
   </ul>
 </nav>
   </div>
@@ -948,7 +952,9 @@
 <p>Mobが捕獲可能状態になると、「仲間になりたそうにこちらを見ている…」とメッセージが表示され、Mobが発行状態になります。<br>
 また、頭の上で60秒のカウントダウンが始まり、制限時間以内に対象のMobを仲間にすることができます。</p>
 <p>捕獲可能状態のMobを右クリックし、【仲間にする】を選択すると仲間に加えることができます。（<strong>最大9体</strong>）<br>
-【仲間にしない】を選択した場合や、制限時間が過ぎた場合は、Mobはその場からいなくなります。</p>
+【仲間にしない】を選択した場合や、制限時間が過ぎた場合は、Mobはその場からいなくなります。<br>
+(仲間にしない場合、[ <a href="#%e7%8c%9b%e7%89%b9%e8%a8%93"  >
+    猛特訓</a>/経験値/素材 ]のいずれかをドロップします)</p>
 <p>
 
 
@@ -968,501 +974,143 @@
             style="text-decoration-line: none !important;" href="#%e4%bb%b2%e9%96%93%e3%81%ab%e3%81%a7%e3%81%8d%e3%82%8bmob%e4%b8%80%e8%a6%a7" aria-label="アンカー">#</a></span>        
     
 </h2>
-<p>マイクラモンスターズの世界では、<br>
-Mobは「一般Mob」と「特殊Mob」の2種類に分けられます。<br>
-なんかよく見る一般っぽいなぁ…ってやつが「<strong>一般Mob</strong>」で、それ以外が「<strong>特殊Mob</strong>」です！</p>
-<p>仲間にできるMobと各ステータス（後述）のベース値を紹介します。</p>
-<p>※表に無いMob（村人やオウムなど）は現在仲間にすることはできません</p>
-<div id="一般mob" class="anchor"></div>
-<h3 class="relative group">一般Mob 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e4%b8%80%e8%88%acmob" aria-label="アンカー">#</a></span>        
+<p>仲間にできるMobと各<a href="#%e3%82%b9%e3%83%86%e3%83%bc%e3%82%bf%e3%82%b9"  >
+    ステータス</a>のベース値を紹介します。</p>
+
+<section class="space-y-10 w-full">
     
-</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Mob</th>
-<th style="text-align:left">攻撃</th>
-<th style="text-align:left">防御</th>
-<th style="text-align:left">速さ</th>
-<th style="text-align:left">体力</th>
-<th style="text-align:left">採掘</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">コウモリ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">70</td>
-<td style="text-align:left">60</td>
-<td style="text-align:left">80</td>
-</tr>
-<tr>
-<td style="text-align:left">ニワトリ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">15</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ウシ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">クリーパー</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">40</td>
-</tr>
-<tr>
-<td style="text-align:left">ロバ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">18</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ドラウンド</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">23</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">15</td>
-</tr>
-<tr>
-<td style="text-align:left">ウマ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">22</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ハスク</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">23</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">15</td>
-</tr>
-<tr>
-<td style="text-align:left">ラバ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">22</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ファントム</td>
-<td style="text-align:left">90</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">70</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ブタ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ヒツジ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">60</td>
-<td style="text-align:left">23</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">クモ</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">160</td>
-<td style="text-align:left">10</td>
-</tr>
-<tr>
-<td style="text-align:left">スケルトン</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">5</td>
-</tr>
-<tr>
-<td style="text-align:left">ストレイ</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">5</td>
-</tr>
-<tr>
-<td style="text-align:left">ゾンビ</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">23</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">15</td>
-</tr>
-</tbody>
-</table>
-<div id="特殊mob" class="anchor"></div>
-<h3 class="relative group">特殊Mob 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%e7%89%b9%e6%ae%8amob" aria-label="アンカー">#</a></span>        
     
-</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Mob</th>
-<th style="text-align:left">攻撃</th>
-<th style="text-align:left">防御</th>
-<th style="text-align:left">速さ</th>
-<th style="text-align:left">体力</th>
-<th style="text-align:left">採掘</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">ハチ</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ブレイズ</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">60</td>
-<td style="text-align:left">23</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">10</td>
-</tr>
-<tr>
-<td style="text-align:left">ネコ</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">15</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">10</td>
-</tr>
-<tr>
-<td style="text-align:left">洞窟クモ</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">120</td>
-<td style="text-align:left">60</td>
-</tr>
-<tr>
-<td style="text-align:left">エンダーマン</td>
-<td style="text-align:left">105</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">400</td>
-<td style="text-align:left">30</td>
-</tr>
-<tr>
-<td style="text-align:left">エンダーマイト</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">キツネ</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ヤギ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">60</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">5</td>
-</tr>
-<tr>
-<td style="text-align:left">ガーディアン</td>
-<td style="text-align:left">90</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">30</td>
-</tr>
-<tr>
-<td style="text-align:left">ホグリン</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">400</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">イリュージョナー</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">320</td>
-<td style="text-align:left">30</td>
-</tr>
-<tr>
-<td style="text-align:left">アイアンゴーレム</td>
-<td style="text-align:left">210</td>
-<td style="text-align:left">60</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">1000</td>
-<td style="text-align:left">20</td>
-</tr>
-<tr>
-<td style="text-align:left">ラマ</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">18</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">マグマキューブ</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ムーシュルーム</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ヤマネコ</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">5</td>
-</tr>
-<tr>
-<td style="text-align:left">パンダ</td>
-<td style="text-align:left">60</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">15</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ピグリン</td>
-<td style="text-align:left">70</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">35</td>
-<td style="text-align:left">160</td>
-<td style="text-align:left">20</td>
-</tr>
-<tr>
-<td style="text-align:left">ピグリンブルート</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">35</td>
-<td style="text-align:left">500</td>
-<td style="text-align:left">20</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Mob</th>
-<th style="text-align:left">攻撃</th>
-<th style="text-align:left">防御</th>
-<th style="text-align:left">速さ</th>
-<th style="text-align:left">体力</th>
-<th style="text-align:left">採掘</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">ピリジャー</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">35</td>
-<td style="text-align:left">240</td>
-<td style="text-align:left">30</td>
-</tr>
-<tr>
-<td style="text-align:left">シロクマ</td>
-<td style="text-align:left">90</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ウサギ</td>
-<td style="text-align:left">120</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">10</td>
-</tr>
-<tr>
-<td style="text-align:left">ラヴェジャー</td>
-<td style="text-align:left">180</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">35</td>
-<td style="text-align:left">1000</td>
-<td style="text-align:left">40</td>
-</tr>
-<tr>
-<td style="text-align:left">シルバーフィッシュ</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">60</td>
-</tr>
-<tr>
-<td style="text-align:left">スケルトンホース</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">150</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">スライム</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">100</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">スノーゴーレム</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ストライダー</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">18</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">商人ラマ</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">18</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">カメ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">300</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ヴェックス</td>
-<td style="text-align:left">135</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">70</td>
-<td style="text-align:left">140</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ヴィンディケーター</td>
-<td style="text-align:left">190</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">35</td>
-<td style="text-align:left">240</td>
-<td style="text-align:left">15</td>
-</tr>
-<tr>
-<td style="text-align:left">ウィッチ</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">20</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">260</td>
-<td style="text-align:left">5</td>
-</tr>
-<tr>
-<td style="text-align:left">ウィザースケルトン</td>
-<td style="text-align:left">120</td>
-<td style="text-align:left">10</td>
-<td style="text-align:left">25</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">5</td>
-</tr>
-<tr>
-<td style="text-align:left">オオカミ</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">15</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">10</td>
-</tr>
-<tr>
-<td style="text-align:left">ゾグリン</td>
-<td style="text-align:left">80</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">400</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">ゾンビホース</td>
-<td style="text-align:left">1</td>
-<td style="text-align:left">50</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">400</td>
-<td style="text-align:left">1</td>
-</tr>
-<tr>
-<td style="text-align:left">村人ゾンビ</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">23</td>
-<td style="text-align:left">200</td>
-<td style="text-align:left">15</td>
-</tr>
-</tbody>
-</table>
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md backdrop-blur max-w-prose" href="/plugins/monster_list/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/img/default-feature_hu2c1a26ca84791abba34e3da73edfd1e2_280347_600x0_resize_q75_box.jpg);"></div>
+        
+      <div class=" p-4">
+      <div class="items-center text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/plugins/monster_list/">仲間にできるMob一覧</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2023-05-07 22:30:00 &#43;0000 UTC">2023/05/07 22:30</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/plugins/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    plugins
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+    </div>
+  </a>
+        
+    
+</section>
 <div id="育てる" class="anchor"></div>
 <h2 class="relative group">【育てる】 
     <span
@@ -1516,7 +1164,8 @@ Mobは「一般Mob」と「特殊Mob」の2種類に分けられます。<br>
     
 </h3>
 <p>モンスターにはそれぞれ「<strong>特技</strong>」と「<strong>苦手</strong>」があります。<br>
-レベルアップの際、「特技」のステータスは上昇しやすく、逆に「苦手」のステータスは上昇しにくくなります。</p>
+レベルアップの際、「特技」のステータスは上昇しやすく、逆に「苦手」のステータスは上昇しにくくなります。<br>
+※捕まえた直後の個体値には影響を与えません。</p>
 <div id="レベルを上げる" class="anchor"></div>
 <h3 class="relative group">レベルを上げる 
     <span
@@ -1535,10 +1184,66 @@ Mobは「一般Mob」と「特殊Mob」の2種類に分けられます。<br>
 
 
 
-  <figure>
-    <img class="my-0 rounded-md" src="https://meao0525.net/wp-content/uploads/2023/02/Minecraft-Screenshot-2023.02.13-23.06.27.98-2.png" alt="" />
+  
+  
     
-  </figure>
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/levelup_hubfb8897342d89549b811cf9c6cde9244_36766_330x0_resize_box_3.png 330w,
+        /plugins/monsters/levelup_hubfb8897342d89549b811cf9c6cde9244_36766_660x0_resize_box_3.png 660w,
+        /plugins/monsters/levelup_hubfb8897342d89549b811cf9c6cde9244_36766_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/levelup_hubfb8897342d89549b811cf9c6cde9244_36766_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/levelup_hubfb8897342d89549b811cf9c6cde9244_36766_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+<div id="スリープ" class="anchor"></div>
+<h2 class="relative group">【スリープ】 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e3%82%b9%e3%83%aa%e3%83%bc%e3%83%97" aria-label="アンカー">#</a></span>        
+    
+</h2>
+<p>管理画面上部のカボチャアイコンから、モンスターを<strong>スリープ状態</strong>にすることができます。<br>
+スリープ状態になったモンスターは、その場で動かなくなり、ダメージも受けません。<br>
+もう一度アイコンをクリックすると、スリープを解除することができます。
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/sleep_hua0333736e62907735924a66e68ef0cd4_218742_330x0_resize_box_3.png 330w,
+        /plugins/monsters/sleep_hua0333736e62907735924a66e68ef0cd4_218742_660x0_resize_box_3.png 660w,
+        /plugins/monsters/sleep_hua0333736e62907735924a66e68ef0cd4_218742_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/sleep_hua0333736e62907735924a66e68ef0cd4_218742_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/sleep_hua0333736e62907735924a66e68ef0cd4_218742_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
 
 </p>
 <div id="瀕死" class="anchor"></div>
@@ -1551,7 +1256,8 @@ Mobは「一般Mob」と「特殊Mob」の2種類に分けられます。<br>
 </h2>
 <p>モンスターはHPが0になると「<strong>瀕死</strong>」状態となります。<br>
 瀕死になったモンスターは、プレイヤーのリスポーン地点にテレポートされ動かなくなります。</p>
-<p>また瀕死になったモンスターは、アイテム「<strong>げんきのいし（後述）</strong>」を使用すると復活させることができます。<br>
+<p>また瀕死になったモンスターは、アイテム「<a href="#%e3%81%92%e3%82%93%e3%81%8d%e3%81%ae%e3%81%84%e3%81%97"  >
+    げんきのいし</a>」を使用すると復活させることができます。<br>
 
 
 
@@ -1659,6 +1365,205 @@ Mobは「一般Mob」と「特殊Mob」の2種類に分けられます。<br>
 入手方法：捕獲可能状態のモンスターを仲間にしない</p>
 <p>「猛特訓」を手に持った状態でモンスターを右クリックすると、モンスターの特技・苦手をランダムに変更することができます。<br>
 特技・苦手のどちらかのみを変更することはできないので、ご注意ください。</p>
+<div id="特殊ネームタグ" class="anchor"></div>
+<h3 class="relative group">特殊ネームタグ 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e7%89%b9%e6%ae%8a%e3%83%8d%e3%83%bc%e3%83%a0%e3%82%bf%e3%82%b0" aria-label="アンカー">#</a></span>        
+    
+</h3>
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/special_name_tag_hub9fcb34b73c1f97c4c00b110e9588a84_241175_330x0_resize_box_3.png 330w,
+        /plugins/monsters/special_name_tag_hub9fcb34b73c1f97c4c00b110e9588a84_241175_660x0_resize_box_3.png 660w,
+        /plugins/monsters/special_name_tag_hub9fcb34b73c1f97c4c00b110e9588a84_241175_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/special_name_tag_hub9fcb34b73c1f97c4c00b110e9588a84_241175_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/special_name_tag_hub9fcb34b73c1f97c4c00b110e9588a84_241175_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+
+入手方法：モンスターズパス特典</p>
+<p>「特殊ネームタグ」を手に持った状態でモンスターを右クリックすると、モンスターの名前に色を付けることができる。
+(カラーバリエーションは10色)<br>
+既に名前に色がついているモンスターに使用した場合も、上書きされる。
+色がついているモンスターに、通常のネームタグを使用した場合は、色はそのままに名前のみ変更される。</p>
+<div id="シークレットモンスター" class="anchor"></div>
+<h2 class="relative group">【シークレットモンスター】 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e3%82%b7%e3%83%bc%e3%82%af%e3%83%ac%e3%83%83%e3%83%88%e3%83%a2%e3%83%b3%e3%82%b9%e3%82%bf%e3%83%bc" aria-label="アンカー">#</a></span>        
+    
+</h2>
+<p>通常のサバイバルでは出会えないシークレットモンスターが出現することがあります。<br>
+各シークレットモンスターをご紹介～～～！</p>
+<div id="巨大ファントム" class="anchor"></div>
+<h2 class="relative group">巨大ファントム 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%b7%a8%e5%a4%a7%e3%83%95%e3%82%a1%e3%83%b3%e3%83%88%e3%83%a0" aria-label="アンカー">#</a></span>        
+    
+</h2>
+<p>ファントムを倒して捕獲可能になった場合、**10%**の確率で巨大ファントムになる。
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/bigphantom_hu5d76478ff6edd398741d324d589eb32c_867494_330x0_resize_box_3.png 330w,
+        /plugins/monsters/bigphantom_hu5d76478ff6edd398741d324d589eb32c_867494_660x0_resize_box_3.png 660w,
+        /plugins/monsters/bigphantom_hu5d76478ff6edd398741d324d589eb32c_867494_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/bigphantom_hu5d76478ff6edd398741d324d589eb32c_867494_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/bigphantom_hu5d76478ff6edd398741d324d589eb32c_867494_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+<div id="ゾンビホース" class="anchor"></div>
+<h2 class="relative group">ゾンビホース 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e3%82%be%e3%83%b3%e3%83%93%e3%83%9b%e3%83%bc%e3%82%b9" aria-label="アンカー">#</a></span>        
+    
+</h2>
+<p>スケルトンホースを倒して捕獲可能になった場合、**10%**の確率でゾンビホースになる。
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/zombiehorse_huf7b6b90f059c07f3129cfdb6f3e9e006_202999_330x0_resize_box_3.png 330w,
+        /plugins/monsters/zombiehorse_huf7b6b90f059c07f3129cfdb6f3e9e006_202999_660x0_resize_box_3.png 660w,
+        /plugins/monsters/zombiehorse_huf7b6b90f059c07f3129cfdb6f3e9e006_202999_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/zombiehorse_huf7b6b90f059c07f3129cfdb6f3e9e006_202999_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/zombiehorse_huf7b6b90f059c07f3129cfdb6f3e9e006_202999_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+<div id="殺人ウサギ" class="anchor"></div>
+<h2 class="relative group">殺人ウサギ 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e6%ae%ba%e4%ba%ba%e3%82%a6%e3%82%b5%e3%82%ae" aria-label="アンカー">#</a></span>        
+    
+</h2>
+<p>ウサギを倒して捕獲可能になった場合、**1%**の確率で殺人ウサギになる。
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/killerbunny_huc74eaf4c99b04dbd48c7b3434703d2a3_228965_330x0_resize_box_3.png 330w,
+        /plugins/monsters/killerbunny_huc74eaf4c99b04dbd48c7b3434703d2a3_228965_660x0_resize_box_3.png 660w,
+        /plugins/monsters/killerbunny_huc74eaf4c99b04dbd48c7b3434703d2a3_228965_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/killerbunny_huc74eaf4c99b04dbd48c7b3434703d2a3_228965_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/killerbunny_huc74eaf4c99b04dbd48c7b3434703d2a3_228965_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
+<div id="イリュージョナー" class="anchor"></div>
+<h2 class="relative group">イリュージョナー 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e3%82%a4%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%8a%e3%83%bc" aria-label="アンカー">#</a></span>        
+    
+</h2>
+<p>ピリジャーを倒して捕獲可能になった場合、**1%**の確率でイリュージョナーになる。
+
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      
+      <img
+        class="my-0 rounded-md"
+        srcset="
+        /plugins/monsters/illusioner_hu9354b416031525ab2ec431c6cf6221ec_217336_330x0_resize_box_3.png 330w,
+        /plugins/monsters/illusioner_hu9354b416031525ab2ec431c6cf6221ec_217336_660x0_resize_box_3.png 660w,
+        /plugins/monsters/illusioner_hu9354b416031525ab2ec431c6cf6221ec_217336_1024x0_resize_box_3.png 1024w,
+        /plugins/monsters/illusioner_hu9354b416031525ab2ec431c6cf6221ec_217336_1320x0_resize_box_3.png 2x"
+        src="/plugins/monsters/illusioner_hu9354b416031525ab2ec431c6cf6221ec_217336_660x0_resize_box_3.png"
+        alt=""
+      />
+      
+      
+    </figure>
+  
+
+</p>
 
         </br></br>
         
