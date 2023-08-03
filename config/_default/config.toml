@@ -17,6 +17,11 @@ buildFuture = false
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[params]
+  description = 'モンスターを仲間にできる<br>新感覚マルチサーバー！'
+  images = ['default-feature.jpg']
+  title = 'Nstrum - ストゥルム'
+
 [imaging]
   anchor = 'Center'
 
@@ -35,3 +40,5 @@ buildFuture = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+
