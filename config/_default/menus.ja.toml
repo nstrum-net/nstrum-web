@@ -42,10 +42,16 @@
   weight = 31
 
 [[main]]
+  name = "経済・チェストショップ"
+  parent = "プラグイン"
+  pageRef = "plugins/economy"
+  weight = 32
+
+[[main]]
   name = "その他"
   parent = "プラグイン"
   pageRef = "plugins"
-  weight = 32
+  weight = 33
 
 [[main]]
   identifier = "discord"
