@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>プラグイン on NsTrum</title>
+    <title>Plugins on NsTrum</title>
     <link>https://nstrum.net/plugins/</link>
-    <description>Recent content in プラグイン on NsTrum</description>
+    <description>Recent content in Plugins on NsTrum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2024 ストゥルム</copyright>
-    <atom:link href="https://nstrum.net/plugins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 12:30:00 +0000</lastBuildDate><atom:link href="https://nstrum.net/plugins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>経済・ショップ</title>
+      <link>https://nstrum.net/plugins/economy/</link>
+      <pubDate>Fri, 04 Aug 2023 12:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/plugins/economy/</guid>
+      <description>経済プラグインについて # プレイヤーは最初にログインしたときに 5,000Mop(モンポ) が貰えます。 これを利用して、他のプレイヤーと売買したり・ショップで買い物が出来ます 経済プラグインで使えるコマンド # コマンド 説明 /money 現在の所持Mopを確認できます /money pay {ユーザID} {渡す金額} 指定したユーザにMopを渡します</description>
+      
+    </item>
+    
+    <item>
+      <title>ドア・チェストの保護</title>
+      <link>https://nstrum.net/plugins/protect_block/</link>
+      <pubDate>Sun, 07 May 2023 22:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/plugins/protect_block/</guid>
+      <description>【概要】 # ドア・チェストを保護してくれるプラグイン</description>
+      
+    </item>
+    
+    <item>
+      <title>マイクラモンスターズの遊び方</title>
+      <link>https://nstrum.net/plugins/monsters/</link>
+      <pubDate>Sun, 07 May 2023 22:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/plugins/monsters/</guid>
+      <description>【仲間にする】 # Mobは基本的に、「倒す」か「餌をあげる」ことで仲間にすることができます。 ここでは仲間にしたMobのことを「モンスター」と呼びます。</description>
+      
+    </item>
+    
+    <item>
+      <title>モンスターズパス・デイリーミッション</title>
+      <link>https://nstrum.net/plugins/monsters_pass/</link>
+      <pubDate>Sun, 07 May 2023 22:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/plugins/monsters_pass/</guid>
+      <description>【デイリーミッション】 # サーバ内では、毎日デイリーミッションが与えられます。 デイリーミッションをクリアすると経験値を得られ、モンスターズパスのレベルを1上げることができます。</description>
+      
+    </item>
+    
+    <item>
+      <title>仲間にできるMob一覧</title>
+      <link>https://nstrum.net/plugins/monster_list/</link>
+      <pubDate>Sun, 07 May 2023 22:30:00 +0000</pubDate>
+      
+      <guid>https://nstrum.net/plugins/monster_list/</guid>
+      <description>【仲間にできるMob一覧】 # マイクラモンスターズの世界では、</description>
+      
+    </item>
+    
   </channel>
 </rss>
