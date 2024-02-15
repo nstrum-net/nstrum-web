@@ -2,16 +2,16 @@ languageCode = "ja"
 languageName = "Japanese"
 
 [params]
-	displayName = "JP"
-	isoCode = "ja-JP"
-	weight = 1
-	rtl = false
-	title = "NsTrum"
-	logo = "img/NsTrum_logo.png"
-	# description = "My awesome website"
-	copyright = "©2023 NsTrum.net"
+  displayName = "JP"
+  isoCode = "ja-JP"
+  weight = 1
+  rtl = false
+  title = "NsTrum"
+  logo = "img/NsTrum_logo.png"
+  # description = "My awesome website"
+  copyright = "©2023 NsTrum.net"
 
-	dateFormat = "2006/01/02 15:04"
+  dateFormat = "2006/01/02 15:04"
 
 [author]
   name = "ストゥルム"
