@@ -44,11 +44,11 @@ https://discord.gg/pACwJKxhtM
 ### 4．DiscordアカウントとMinecraftを連携する
 
 初回ログイン時、以下のようなメッセージが出ますので、4桁の数字をメモしてください。
-![](https://meao0525.net/wp-content/uploads/2023/02/image-1024x657.png)
+![](need-auth.png)
 Discordを開き、  
 ①Discordの画面右側「Minecraft Monsters Server」をクリックして  
 ②メッセージ欄に4桁の数字を入力してEnterキーを打ってください  
-![](https://meao0525.net/wp-content/uploads/2023/02/image-1.png)
+![](send-discord-dm.png)
 これでDiscordアカウントとMinecraftの情報が連携されます！
 
 ## サブスク支援のお願い
